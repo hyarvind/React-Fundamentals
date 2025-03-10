@@ -1,11 +1,12 @@
 import './App.css'
+import Button from './Button'
 import ProductTab from "./ProductTab"
+import Form from './Form'
 function App() {
 
   return (
     <>
-    <h2>Blockbuster Deals | shop Now</h2>
-   <ProductTab/>
+    <Form/>
     </>
   )
 }
